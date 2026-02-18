@@ -1,0 +1,207 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "open-library-authors;validate-the-open-library-author-resource-ol1a",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Validate the open library author resource OL1A",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15929917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I set the open library author endpoint \"authors\" ready",
+            "match": {
+              "location": "steps/openLibrary.steps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 137083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I send a GET request to the open library author resource \"OL1A\"",
+            "match": {
+              "location": "steps/openLibrary.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 952358375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the response status code should be \"200\"",
+            "match": {
+              "location": "steps/openLibrary.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1642249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the response body should contain \"personal_name\" as one of the keys",
+            "match": {
+              "location": "steps/openLibrary.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1517667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the \"personal_name\" key should have \"Sachi Rautroy\"",
+            "match": {
+              "location": "steps/openLibrary.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1322458
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1676417
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "open-library-authors;validate-the-open-library-author-resource-ol1a",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Validate the open library author resource OL1A",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 863833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I set the open library author endpoint \"authors\" ready",
+            "match": {
+              "location": "steps/openLibrary.steps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I send a GET request to the open library author resource \"OL1A\"",
+            "match": {
+              "location": "steps/openLibrary.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 215775957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the response status code should be \"200\"",
+            "match": {
+              "location": "steps/openLibrary.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 500749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the response body should contain \"alternate_names\" as one of the keys",
+            "match": {
+              "location": "steps/openLibrary.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1036790
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the \"alternate_names\" key should have \"Yugashrashta Sachi Routray\"",
+            "match": {
+              "location": "steps/openLibrary.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1202041
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 622583
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "open-library-authors",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Open Library Authors",
+    "tags": [],
+    "uri": "features/openLibrary.feature"
+  }
+]
